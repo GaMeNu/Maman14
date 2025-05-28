@@ -1,0 +1,23 @@
+.extern EXT1
+.extern EXT2
+.extern EXT3
+.extern EXT4, EXT5
+.entry ENT1
+.entry ENT2
+.entry ENT3
+.entry ENT4
+ENT1: .string "There are currently 33 words here"
+ENT2: .data 72, 69, 76, 76, 79, 32, 87, 79, 82, 76, 68
+ENT3: .data 87 ,72 ,65 ,84 ,39 ,83 ,32 ,85 ,80 ,63
+ENT4: .string "There are now 87 characters here"
+mov 0, @r0
+lea ENT2, @r2
+READCHR: red @r1
+inc @r0
+cmp @r1, ENT2
+bne EXT1
+prn @r1
+inc @r2
+jmp READCHR
+prn EXT5
+STP: stop

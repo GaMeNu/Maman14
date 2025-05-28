@@ -1,0 +1,48 @@
+
+ERROR 403: INVALID_OPERAND_ERROR
+In file error1.am at line 14
+Operand "a" is an invalid number.
+
+ERROR 407: INVALID_OPERAND_TYPE_ERROR
+In file error1.am at line 3
+Invalid operand type for operand "1".
+
+ERROR 406: OPERAND_COUNT_ERROR
+In file error1.am at line 4
+Extraneous operand "@r1".
+
+ERROR 406: OPERAND_COUNT_ERROR
+In file error1.am at line 5
+Too little operands.
+
+ERROR 406: OPERAND_COUNT_ERROR
+In file error1.am at line 5
+Missing operand(s).
+
+ERROR 407: INVALID_OPERAND_TYPE_ERROR
+In file error1.am at line 6
+Invalid operand type for operand "1".
+
+ERROR 407: INVALID_OPERAND_TYPE_ERROR
+In file error1.am at line 8
+Invalid operand type for operand "100".
+
+ERROR 407: INVALID_OPERAND_TYPE_ERROR
+In file error1.am at line 9
+Invalid operand type for operand "100".
+
+ERROR 402: UNDEFINED_SYMBOL_ERROR
+In file error1.am at line 10
+Label "LOOP22" is undefined.
+
+ERROR 402: UNDEFINED_SYMBOL_ERROR
+In file error1.am at line 11
+Label "W@r1" is undefined.
+
+ERROR 406: OPERAND_COUNT_ERROR
+In file error1.am at line 12
+Extraneous operand "@r2".
+
+Total 10 errors were found during pass two. Continuing to next file...
+
+Finished compiling all files!
